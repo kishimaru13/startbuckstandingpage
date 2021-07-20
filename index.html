@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Starbucks Website Landing Page</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+            <header>
+                <a href="#"><img src="./images/logo.png" class="logo"></a>
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <ul class="navigation">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">What's News</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2>It's mot just coffee<br>It's <span>Starbucks</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem esse veniam consectetur aspernatur quas ratione accusantium maxime voluptate aperiam assumenda cupiditate id molestiae repudiandae expedita asperiores, nemo culpa repellat obcaecati!</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="imgBox">
+                    <img src="./images/img1.png" class='starbucks'>
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="./images/thumb1.png" alt="" onclick="imgSlider('img1.png')"></li>
+                <li><img src="./images/thumb2.png" alt="" onclick="imgSlider('img2.png')"></li>
+                <li><img src="./images/thumb3.png" alt="" onclick="imgSlider('img3.png')"></li>
+            </ul>
+            <ul class="sci">
+                <li><img src="./images/facebook.png"></li>
+                <li><img src="./images/instagram.png"></li>
+                <li><img src="./images/twitter.png"></li>
+            </ul>
+        </section>
+
+        <script src="./js/index.js" type='text/javascript'></script>
+
+    </body>
+</html>
